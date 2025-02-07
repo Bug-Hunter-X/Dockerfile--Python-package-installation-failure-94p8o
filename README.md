@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: attempting to install Python packages before the requirements.txt file is copied into the image. The Dockerfile uses a multi-stage build to reduce image size and improve security.  The solution showcases how to correctly copy and install the packages.
